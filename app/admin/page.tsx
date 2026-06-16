@@ -140,7 +140,7 @@ export default function PainelAdmin() {
                         />
                         <button
                           disabled={!motivoRecusa || enviando}
-                          onClick={() => atualizarStatus('recusated')}
+                          onClick={() => atualizarStatus('recusado')}
                           className="w-full bg-red-600 hover:bg-red-700 text-white text-sm font-semibold py-1.5 rounded disabled:bg-gray-300"
                         >
                           Recusar Termo
